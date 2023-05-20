@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    background-color: #f5f5f5; /* Color de fondo sólido */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  /* Estilos de la barra superior */
+  .navbar {
+    background-color: #333; /* Color de la barra superior */
+  }
+  
+  .nav-link {
+    color: #000000; /* Color del texto de los enlaces de la barra superior */
+  }
+  
+  .nav-link.active {
+    font-weight: bold; /* Estilo del enlace activo de la barra superior */
+  }
+  
+  /* Estilos de los cuadros de los personajes */
+  .card {
+    background-color: #245cf6; /* Color de fondo de los cuadros de los personajes */
+    color: #fff; /* Color del texto dentro de los cuadros de los personajes */
+  }
+  
+  .card-title {
+    color: #fff; /* Color del título dentro de los cuadros de los personajes */
+  }
+  
+  .card-text {
+    color: #fff; /* Color del texto dentro de los cuadros de los personajes */
+  }
+  
+  .card-img-top {
+    object-fit: cover; /* Ajustar la imagen al tamaño del cuadro */
+    height: 500px; /* Altura de la imagen en los cuadros de los personajes */
+  }
+  
+  /* Estilos para el modo oscuro */
+.ModoOscuro {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Estilos para el modo luminoso */
+body {
+    background-color: #fff;
+    color: #222;
+}
+
